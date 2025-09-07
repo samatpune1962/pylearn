@@ -25,7 +25,6 @@ country_list = ["india", "japan","north korea"]
 
 for country in country_list :
     print(ask_a_question(f"what is the capital of {country}"))
-    git 
 
 
  
