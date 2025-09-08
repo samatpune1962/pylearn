@@ -1,7 +1,7 @@
 from google import genai
 import os
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCtTflQmiUYEOAPj86B2qNVcQzehghoAes"
+os.environ["GOOGLE_API_KEY"] = "AIzaSyC8zxhvyNHtN1Qw-qHpUomA2Ct0auKN3sE"
 def ask_a_question(question, model="gemini-2.5-flash"):
     client = genai.Client()
     response = client.models.generate_content(
